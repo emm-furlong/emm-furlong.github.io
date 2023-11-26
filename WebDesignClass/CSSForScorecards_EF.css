@@ -1,0 +1,26 @@
+table, td {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid;
+    text-align: center ;
+}
+table, caption {
+    border-collapse:collapse;
+}
+
+caption, td {
+    padding:5px;
+}
+
+tr:nth-of-type(odd){
+    background-color: gray;
+}
+
+caption {
+    font-size: 50px;
+}
+
+td{
+    height: 50px;
+    width: 100px;
+}
