@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            The Imitation Assignment
+        </title>
+        <style>
+            .seagull {
+                background-image:linear-gradient(to bottom right, MediumSlateBlue, White);
+            }
+            .dinosaur{
+                filter: hue-rotate(90deg) drop-shadow(15px 15px 15px black);    
+            }
+            .butterfly{
+                border-radius: 50px 0px 50px 0px;
+                filter: invert(100%) opacity(75%);
+            }
+            .text{
+                color:black;
+                font-size: 325%;
+                text-shadow: 3px 3px 10px;
+                font-family: Arial, Helvetica, sans-serif;
+                position: relative;
+                top: 20%;
+                left: 5%;
+            }
+            .penguins{
+                filter: sepia(50%);
+                border-radius:50%;
+                border:solid 2px black
+            }
+            .field{
+                filter: grayscale(100%);
+            }
+            .field{
+                border: 50px solid transparent;
+                border-image: url(Images/tic-tac-toe.png) 25 round;
+                border-image-slice:50;
+            }
+        </style>
+    </head>
+    <body>
+        <img class="seagull" src="Images/seagull.png"/>
+        <img class="dinosaur" src="Images/dinosaur.png"/>
+        <img class="butterfly" src="Images/butterfly.jpg"/>
+        <div style="width:400px; height:352px; color:white; background-image:url(Images/theater_stage.jpg); align-items: center; filter: blur(3px);"></div>
+        <div><p class="text" style="filter:blur(0px);">Presenting</p></div>
+        <img class="penguins" src="Images/penguins.jpg"/>
+        <img class="field" src="Images/football_field.jpg"/>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+.image, iframe{
+    width: 560px;
+    position: relative; left: 25%;
+}
+
+body{
+    background-color: blue;
+}
+
+p{
+    font-size: 250%;
+    font-weight: bold;
+    color:white;
+}
